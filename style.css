@@ -1,0 +1,140 @@
+#bg1_div {
+    height: 30%;
+    width: 100%;
+    background-image: url("bannerimg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 9;
+}
+.navbar-inverse {
+    opacity: 1;
+}
+body {
+    background-color: #cbcffe;
+    color: brown;
+    scroll-behavior:smooth;
+}
+.u1_login {
+    background: linear-gradient(to left, #9a8eda, #bb74b6);
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    border: 10px crimson ridge;
+    color: crimson;
+    z-index: 10;
+    font-family: "Redressed", cursive;
+    box-shadow: 10px;
+    margin-top: -50px;
+}
+.u_inputs {
+    color: blueviolet;
+    font-size: 30px;
+    background-color: #f9bffc;
+    text-align: center;
+    font-family: "Yellowtail", cursive;
+}
+.play {
+    width: 150px;
+    height: 90px;
+    padding-right: 10px;
+    border-radius: 50%;
+    font-size: 30px;
+    background-color: #ce9bdd;
+    color: blueviolet;
+    border: 4px crimson ridge;
+    font-family: "Yellowtail", cursive;
+}
+#choti_pic {
+    height: 75px;
+    width: auto;
+    margin-top: -50px;
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik:700&display=swap');
+ * {
+	 box-sizing: border-box;
+}
+ *::before, *::after {
+	 box-sizing: border-box;
+}
+
+ button {
+	 position: relative;
+	 display: inline-block;
+	 cursor: pointer;
+	 outline: none;
+	 border: 0;
+	 vertical-align: middle;
+	 text-decoration: none;
+	 font-size: inherit;
+	 font-family: inherit;
+}
+ button.learn-more {
+	 font-weight: 600;
+	 color: #382b22;
+	 text-transform: uppercase;
+	 padding: 1.25em 2em;
+     margin:10%;
+	 background: #fff0f0;
+	 border: 2px solid #b18597;
+	 border-radius: 0.75em;
+	 transform-style: preserve-3d;
+	 transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+ button.learn-more::before {
+	 position: absolute;
+	 content: '';
+	 width: 100%;
+	 height: 100%;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+	 background: #f9c4d2;
+	 border-radius: inherit;
+	 box-shadow: 0 0 0 2px #b18597, 0 0.625em 0 0 #ffe3e2;
+	 transform: translate3d(0, 0.75em, -1em);
+	 transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), box-shadow 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+ button.learn-more:hover {
+	 background: #ffe9e9;
+	 transform: translate(0, 0.25em);
+}
+ button.learn-more:hover::before {
+	 box-shadow: 0 0 0 2px #b18597, 0 0.5em 0 0 #ffe3e2;
+	 transform: translate3d(0, 0.5em, -1em);
+}
+ button.learn-more:active {
+	 background: #ffe9e9;
+	 transform: translate(0em, 0.75em);
+}
+ button.learn-more:active::before {
+	 box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
+	 transform: translate3d(0, 0, -1em);
+}
+ #rm{
+    background: #6ea9ec;
+    border: 2px solid #002f94;
+
+
+ }
+input{
+    width:50%;
+    background:linear-gradient(to left,pink,blueviolet);
+    color:black;
+    
+    font-family: 'Sigmar One', cursive;
+}
+#submitinfo{
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+    border:20px blueviolet ridge;
+    background-image: url("./MY\ LOGO.PNG");
+    background-size: cover;
+    color:darkblue;
+    font-family: 'Anton', sans-serif;
+    font-size:30px;
+}
+ #submitinfo{
+     display:none;
+ }

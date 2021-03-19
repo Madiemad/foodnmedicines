@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HEALTHY AND HUNGER FREE INDIA </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./STYLE.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <center>
+        <div id="bg1_div">
+
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <sup><img id="choti_pic" class="img-thumbnail" src="./MY LOGO.PNG" alt="HUNGERFREE AND HEALTHY INDIA"></sup>
+            <br>
+            <h1 style="font-family: 'Yellowtail', cursive; background-color: grey;">HUNGERFREE AND
+                HEALTHY INDIA</h1>
+
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+
+        <br>
+        <br>
+        <h3>
+            <kbd>
+                PLEASE ENTER THE REQUIRED INFORMATION, THIS WOULD HELP US TO REACH YOU OUT
+            </kbd>
+        </h3>
+    </center>
+
+
+    <form style="padding:30px;">
+        <div class="form-group">
+            <label for="email">Name:</label>
+            <input type="text" id="name" onformchange="cheqsub()" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Address:</label>
+            <input type="text" id="address" onchange="cheqsub()" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Contact Number:</label>
+            <input type="text" id="contact_no" onformchange="cheqsub()" class="form-control">
+        </div>
+        <div class="form-group" id="reqmed" style="display:none;">
+            <label for="pwd">Which medicine:</label>
+            <input type="text" id="whichmed" class="form-control">
+        </div>
+    </form>
+
+    <center>
+        <br>
+        <br>
+        <kbd style="color:yellow;">
+            **WE DO NOT SHARE THIS INFO WITH ANYONE**
+        </kbd>
+        </h3>
+        <br>
+        <hr>
+        <button type="button" value="Submit" onclick="thankyou()" id="submitinfo" data-toggle="modal"
+            data-target="#ref1">Submit</button>
+        <br>
+
+        <hr>
+
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade " id="ref1" style="margin-top:50px;">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">THANK YOU </h4>
+                    </div>
+                    <div class="modal-body">
+                        <img src="mogongo.png" class="img-responsive img_modal">
+                        <br>
+                        <hr>
+                        <p class="p_modal text-capitalize" style="color:black;" id="Thankyouslogan"></p>
+                        <button type="button" id="home"
+                            style="background:linear-gradient(to left,grey,black); color:azure;filter:drop-shadow(5px 5px pink);"
+                            onclick="home()">HOME</button>
+
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </center>
+    <script src="./takeinfo.js"></script>
+</body>
+
+</html>
